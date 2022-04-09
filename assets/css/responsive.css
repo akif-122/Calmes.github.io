@@ -1,0 +1,377 @@
+@media (max-width: 1199px){
+.content-wrapper{
+	position: absolute; 
+	margin-top:0px; top: 0; 
+	width: 100% ;
+	z-index: 1000;
+}
+.content-first-2-section{
+	position: relative;
+}
+.content-third-section{
+	width: 400px;
+	height: 100%;
+	overflow-y: scroll;
+	position: fixed; 
+	margin-top: 0px;  
+	top: 0%; 
+	left: -100%;
+	z-index: 100;
+	padding: 0px;
+
+}
+.third-close{
+	left: 0% !important;
+}
+.content-third-section{
+	background: #f5f0ea;
+}
+.content-third-section .third-main{
+	margin: 0 !important;
+	border-radius: 0;
+}
+.content-third-togl-wrap{
+	height: 100%;
+	position: fixed;
+
+}
+.content-third-toggler{
+	width: 50px;
+	height: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	background: #275c53;
+	border: 1px solid lightgrey;
+	position: fixed;
+	left: 0;
+	bottom: 5%;
+	z-index: 1000;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content-third-toggler i{
+	color: #fff;
+	font-size: 20px;
+}
+.third-content-closer{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.third-content-closer  span{
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	border-radius: 50%;
+	color: #fff;
+	background: #e2bb53;
+	text-align: center;
+	line-height: 35px;
+	cursor: pointer;
+}
+.third-content-closer  span:hover{
+	background: #275c53;
+}
+
+}
+
+
+@media (max-width: 991px){
+.content-section h3{
+	font-size: 26px !important;
+	
+}
+.blog-secion h4,
+.content-section h4{
+	font-size: 18px;
+
+}
+.content-section .growing-content p{
+	font-size: 15px;
+}
+/*
+===========================================
+	NAVBAR SECTION START
+===========================================
+*/
+.navbar-section #my-nav{
+	overflow: scroll;
+}
+.navbar-section #my-nav ul{
+	margin-top: 30px;
+}
+.navbar-section #my-nav ul li{
+	position: relative;
+	overflow: hidden;
+	margin: 0 !important;
+}
+.navbar-section #my-nav ul li a{
+	font-size: 16px;
+	color: #fff;
+	padding:  10;
+	font-weight: 500;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+
+}
+#my-nav .nav-icon{
+	position: relative;
+
+
+}
+#my-nav .nav-icon  li{
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-closer{
+	
+
+}
+.nav-closer span{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: #fff;
+	background: #e2bb53;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	line-height: 35px;
+	font-size: 30px;
+	
+
+}
+.myNav{
+	position: fixed !important;
+	top: 0;
+	left: -100%;
+	background: #275c53 !important;
+	height: 100%;
+	z-index: 10000;
+}
+#my-nav .navbar-wrapp{
+	width: 400px;
+	height: 100vh;
+	padding: 20px;
+}
+
+.navbar-opener{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+
+}
+.navbar-opener:hover div:nth-child(1){
+	width: 70%
+}
+.navbar-opener div{
+	width: 100%;
+	height: 2px;
+	margin: 3px 0;
+	background: #fff;
+}
+.footer-section .ft-sub .input button{
+	width: 100%;
+}
+
+
+/*.search-wrap{
+	position: absolute;
+	right: 40px;
+	top: 0px;
+	
+	z-index: 400;
+}
+.search-wrap .search-input input{
+	width: 400px;
+	height: 60px;
+	font-size: 20px;
+	border-radius: 70px;
+	background: #fff;
+	border: none;
+	outline: none;
+	padding-left: 20px;
+}*/
+.drop-down{
+	position: relative;
+}
+.drop-down:hover #dropMenu{
+	display: inline-block;
+}
+#dropMenu{
+	position: relative;
+	width: 100%;
+}
+
+.sub-dropMenu{
+	position: relative;
+	left: 0;
+
+}
+.search-bar{
+	overflow: scroll;
+}
+.search-wrap{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	transform: translate(0%, 0%);
+}
+.search-wrap .search-input{
+	position: relative;
+}
+.search-wrap .search-input input{
+	width: 100%;
+	height: 60px;
+	font-size: 20px;
+	border-radius: 70px;
+	background: #fff;
+	border: none;
+	outline: none;
+	padding-left: 20px;
+}
+.search-wrap .search-input i{
+	cursor: pointer;
+	font-size: 15px;
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*
+===========================================
+	NAVBAR SECTION END
+===========================================
+*/
+}
+
+
+@media (max-width: 767px){
+.content-container{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+/*
+===========================================
+	SUBSCRIBE SECTION START
+===========================================
+*/
+.subs-section{
+	margin: 30px 0;
+}
+.subs-section .card-body{
+
+	padding: 50px 40px;
+
+}
+.subs-section .card-body img{
+
+	width: 490px;
+}
+.subs-section .card-body h1{
+	font-size: 30px;
+	color: #fff;
+}
+
+
+
+/*
+===========================================
+	SUBSCRIBE SECTION END
+===========================================
+*/
+}
+
+
+@media (max-width: 575px){
+.content-third-section{
+	width: 100%;
+
+}
+.myNav{
+	width: 100%;
+	height: 100%;
+}
+#my-nav .navbar-wrapp{
+	width: 100%;
+}
+
+.content-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.content-section h3{
+	font-size: 20px !important;
+	
+}
+.blog-secion h4,
+.content-section h4{
+	font-size: 16px;
+
+}
+.content-section .growing-content p{
+	font-size: 13px;
+}
+
+/*
+===========================================
+	SUBSCRIBE SECTION START
+===========================================
+*/
+.subs-section{
+	margin: 10px 0;
+}
+.subs-section .card-body{
+	padding: 30px 20px;
+	overflow-x: hidden !important;
+	overflow-y: inherit !important;
+}
+.subs-section .card-body img{
+	width: 300px;
+}
+.subs-section .card-body h1{
+	font-size: 20px;
+}
+
+.subs-section .card-body .subs-form{
+	margin: 20px 0;
+	margin-bottom: 20px;
+
+}
+.subs-section .card-body .subs-form input{
+	width: 100%;
+	height: 40px;
+	font-size: 15px;
+}
+.subs-section .card-body .subs-form button{
+	height: 40px;
+	width: 100px;
+	font-size: 11px;
+}
+
+/*
+===========================================
+	SUBSCRIBE SECTION END
+===========================================
+*/
+
+.footer-section{
+	padding: 20px ;
+}
+
+
+}
+
